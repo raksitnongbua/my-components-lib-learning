@@ -29,5 +29,8 @@
   "repository": "https://github.com/raksitnongbua/my-lib-learning.git",
   "author": "raksitnongbua <tan.raksit@gmail.com>",
   "license": "MIT",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "@raksitnongbua:registry": "https://npm.pkg.github.com"
+  }
 }
