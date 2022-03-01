@@ -1,7 +1,8 @@
 import React from 'react';
 import { Props } from './index.types';
+
 const Button: React.FC<Props> = ({ label }) => {
-  return <div>{label}</div>;
+  return <button>{label}</button>;
 };
 
 export default Button;
